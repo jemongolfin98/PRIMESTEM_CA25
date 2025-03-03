@@ -26,7 +26,7 @@ public class RSVPFeedbackCollector : MonoBehaviour
         btnSubmit.onClick.AddListener( delegate {
             switch (option) {
                 case CollectionOption.openEmailClient:
-                    OpemEmailClient( txtData.text );
+                    OpenEmailClient( txtData.text );
                     break;
                 case CollectionOption.openGFormLink:
                     OpenGFormLink();
@@ -63,7 +63,7 @@ public class RSVPFeedbackCollector : MonoBehaviour
         bool isString = dataContainer is string;
         string jsonData = isString ? dataContainer.ToString() : JsonUtility.ToJson(dataContainer);
 
-        WWWForm form = new WWWWForm();
+        WWWForm form = new WWWForm();
         form.AddField( kGFormEntryID01, jsonData );
         form.AddField( kGFormEntryID02, jsonData );
         form.AddField( kGFormEntryID03, jsonData );
