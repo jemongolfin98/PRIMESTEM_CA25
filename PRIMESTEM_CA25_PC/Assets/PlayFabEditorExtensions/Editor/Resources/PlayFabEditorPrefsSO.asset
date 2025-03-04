@@ -15,5 +15,5 @@ MonoBehaviour:
   SdkPath: Assets/PlayFabSDK
   EdExPath: N:/Video Game Projects/Github Game Projects/git/SchoolProjects/PRIMESTEM/PRIMESTEM_CA25/PRIMESTEM_CA25_PC/Assets\PlayFabEditorExtensions\Editor
   PanelIsShown: 0
-  curMainMenuIdx: 1
+  curMainMenuIdx: 0
   curSubMenuIdx: 0
